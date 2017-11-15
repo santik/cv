@@ -1,33 +1,61 @@
 module.exports = {
   facts: {
-    'Residence': 'London',
-    'Homepage': '<a href="https://en.wikipedia.org/wiki/William_Shakespeare">https://en.wikipedia.org/wiki/William_Shakespeare</a>',
-    'Email': '<a href="mailto:wil64@yahoo.com">wil64@yahoo.com</a>'
+    'Residence': 'Diemen, NL',
+    'Email': '<a href="mailto:fedorets.alex@gmail.com.com">fedorets.alex@gmail.com</a>',
+    'LinkedIn': '<a href="https://www.linkedin.com/in/fedoretsalex/">https://www.linkedin.com/in/fedoretsalex/</a>',
+      'Skype': 'live:fedorets.alex'
   },
   plays: [
-    {
-      title: 'Hamlet',
-      written: 'Likely early 17th century',
-      badges: ['tragedy', 'philosophy', 'death'],
+      {
+          title: 'Emesa',
+          written: 'Backend Developer',
+          badges: ['PHP 5/7', 'MySQL', 'Symfony', 'PHPUnit', 'Jira']
+      },
+      {
+          title: 'Recruitz',
+          written: 'Lead Developer, Scrum Master',
+          badges: ['PHP 5/7', 'MySQL', 'AWS', 'Laravel', 'PHPUnit', 'Jira'],
+          contents: `
+          <ul>
+            <li>Setup SCRUM process in developers team
+            <li>facilitate code design sessions
+            <li>mentor developers
+            <li>improve CI/CD
+          </ul>
+      `
+      },
+      {
+      title: 'InSided',
+      written: 'PHP developer, Tech Lead, Scrum Master',
+      badges: ['PHP 5/7', 'MySQL', 'AWS', 'Symfony', 'Silex', 'Twig', 'PHPUnit', 'Jenkins', 'Vagrant/Ansible', 'Jira'],
       contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
-`
+          <ul>
+          <li>New features development 
+          <li>Supporting legacy codebase
+          <li>Application architecture development 
+          <li>Helping product owners to pass business requirements to development team
+          <li>Scrum activities
+          </ul>
+      `
     },
     {
-      title: 'Twelfth Night',
-      written: '1600 – 1601',
-      badges: ['comedy', 'love'],
+      title: 'Perfect World Europe B.V',
+      written: 'Senior Software Engineer',
+      badges: ['MySQL', 'PHP 5', 'Zend', 'Smarty', 'PHPUnit', 'JavaScript', 'Jira'],
       contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
-`
+      <ul>
+      <li>New backend application for billing systems 
+<li>Supporting legacy codebase
+<li>Frontend applications for advertising websites
+<li>Internal analysis tools
+
+</ul>
+      `
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      written: '1595–1596, with a possible early draft written in 1591',
-      badges: ['tragedy', 'death', 'love'],
-      contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`
+      title: 'Freelancer',
+      written: 'Software developer/consultant',
+      contents: `All sort of development and software consultancy activities for remote customers.<br><a href="https://www.upwork.com/freelancers/~01f62950f9552c1a63">Engineer profile</a>`
     }
   ],
   experience: [
